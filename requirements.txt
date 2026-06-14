@@ -2,6 +2,15 @@ diffusers
 transformers
 accelerate
 sentencepiece
-opencv-python
+opencv-python-headless
 torch
 torchvision
+numpy
+pillow
+imageio
+imageio-ffmpeg
+tqdm
+safetensors
+huggingface_hub
+einops
+xformers
