@@ -14,10 +14,9 @@ pipe.to("cpu")
 video_input_path = "video_awal.mp4" 
 
 print("2. Memproses upscaling video di CPU... (Santai dulu sambil dengerin Phonk)")
+# FIX: Cukup masukkan file video dan jumlah inference steps saja sesuai spec modelnya
 output = pipe(
     video=video_input_path,
-    prompt="high quality, sharp details, 4k resolution",
-    negative_prompt="blurry, low quality, noise",
     num_inference_steps=10,
 ).frames
 
