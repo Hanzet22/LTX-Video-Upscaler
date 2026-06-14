@@ -1,0 +1,7 @@
+diffusers
+transformers
+accelerate
+sentencepiece
+opencv-python
+torch
+torchvision
